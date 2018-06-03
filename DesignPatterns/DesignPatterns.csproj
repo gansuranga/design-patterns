@@ -41,17 +41,19 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Composite\Composite1.cs" />
-    <Compile Include="Observer\Doer.cs" />
-    <Compile Include="Observer\IObserver.cs" />
-    <Compile Include="Observer\ISubject.cs" />
-    <Compile Include="Observer\Logger.cs" />
-    <Compile Include="Observer\MulticastNotifier.cs" />
-    <Compile Include="Observer\NotificationSink.cs" />
-    <Compile Include="Observer\UserInterface.cs" />
+    <Compile Include="Observer 1\Doer.cs" />
+    <Compile Include="Observer 1\IObserver.cs" />
+    <Compile Include="Observer 1\ISubject.cs" />
+    <Compile Include="Observer 1\Logger.cs" />
+    <Compile Include="Observer 1\MulticastNotifier.cs" />
+    <Compile Include="Observer 1\NotificationSink.cs" />
+    <Compile Include="Observer 1\UserInterface.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Observer 2\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

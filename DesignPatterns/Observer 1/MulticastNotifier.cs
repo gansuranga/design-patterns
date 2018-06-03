@@ -22,7 +22,11 @@ namespace DesignPatterns.Observer
             this.invocationList = new List<IObserver<T>>();
             this.invocationList.Add(observer);
         }
-
+        /// <summary>
+        /// each notifier maintains a list of attached observers and delegates
+        /// </summary>
+        /// <param name="notifier"></param>
+        /// <param name="observer"></param>
         private MulticastNotifier(MulticastNotifier<T> notifier, IObserver<T> observer)
         {
             this.invocationList = new List<IObserver<T>>(notifier.invocationList);

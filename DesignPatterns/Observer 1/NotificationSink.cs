@@ -8,7 +8,8 @@ namespace DesignPatterns.Observer
 
     /// <summary>
     /// this will recieve single notification for a single concrete observer ,this bridges gap between 
-    /// the sender and function handles it
+    /// the sender and function handles 
+    /// IObserver implenments seperate end-point for each notification
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class NotificationSink<T>:IObserver<T>
