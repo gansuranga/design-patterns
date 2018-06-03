@@ -1,0 +1,7 @@
+C:\Git Tutorials\DesignPatterns\Program\bin\Debug\Program.exe
+C:\Git Tutorials\DesignPatterns\Program\bin\Debug\Program.pdb
+C:\Git Tutorials\DesignPatterns\Program\bin\Debug\DesignPatterns.dll
+C:\Git Tutorials\DesignPatterns\Program\bin\Debug\DesignPatterns.pdb
+C:\Git Tutorials\DesignPatterns\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+C:\Git Tutorials\DesignPatterns\Program\obj\Debug\Program.exe
+C:\Git Tutorials\DesignPatterns\Program\obj\Debug\Program.pdb
